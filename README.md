@@ -19,7 +19,9 @@ Single Object
 
 
 Type System Summary
+
 **Category**    |	**Keyword**     |	**Example**
+| --------      | -------         | -------
 Root Operation  |	type	          | Query, Mutation, Subscription
 Object	        | type	          | User, Post
 Scalar	        | scalar	        | DateTime, JSON
