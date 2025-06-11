@@ -4,12 +4,12 @@
 
 Get all querires
 ```
-{  __type(name: \"Query\") {    name fields{name type{name}}    possibleTypes {      name    }  }}
+{  __type(name: \"Query\") {    name fields{name type {          name          kind        } }    possibleTypes {      name  fields {        name        type {          name          kind        }      }  }  }}
 ```
 
 Get all Mutations
 ```
-{  __type(name: \"Mutation\") {    name fields{name type{name}}    possibleTypes {      name    }  }}
+{  __type(name: \"Mutation\") {    name fields{name type {          name          kind        } }    possibleTypes {      name  fields {        name        type {          name          kind        }      }  }  }}
 ```
 
 Single Object
